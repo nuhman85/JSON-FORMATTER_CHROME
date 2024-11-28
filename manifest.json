@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "JSONB Formatter",
+    "version": "1.0",
+    "description": "Formats valid JSON from selected text and displays it in a custom alert box.",
+    "permissions": [
+      "contextMenus",
+      "scripting",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
