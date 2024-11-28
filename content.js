@@ -27,10 +27,12 @@ function injectCustomAlert() {
       .modal-content {
         position: relative;
         background-color: white;
-        margin: 15% auto;
+        margin: 5% auto; /* Reduced margin to allow more space for the alert box */
         padding: 20px;
         border-radius: 5px;
         width: 50%;
+        max-height: 80vh; /* Limit height to 80% of viewport */
+        overflow-y: auto; /* Enable vertical scrolling if content is too large */
         text-align: center;
       }
       .close-button {
@@ -45,6 +47,8 @@ function injectCustomAlert() {
         background: #f4f4f4;
         padding: 10px;
         border-radius: 4px;
+        white-space: pre-wrap; /* Prevents text from overflowing horizontally */
+        word-wrap: break-word; /* Ensures long words or JSON keys are wrapped */
       }
       </style>
     `;
