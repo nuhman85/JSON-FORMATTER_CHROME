@@ -2,6 +2,8 @@
 Custom alert tab
 with json format
 
+Explanation https://www.youtube.com/watch?v=VLMyTnUeLR4
+
 
 
 ![Screenshot 2024-11-27 at 9 58 43 PM](https://github.com/user-attachments/assets/74d2e804-c82c-4914-91e3-d68a615e3a6f)
